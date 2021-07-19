@@ -1,0 +1,23 @@
+.box{
+    border: 5px solid rgb(125, 8, 172);
+    height: 150px;
+    width: 300px;
+    margin: auto;
+}
+
+#marks{
+    margin: 10px;
+    height: 20px;
+}
+
+/* .result-block{
+    display: inline-block;
+} */
+
+.left{
+    float: left;
+}
+
+#result{
+    margin: 5px;
+}
