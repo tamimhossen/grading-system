@@ -1,7 +1,6 @@
 let button = document.getElementById('calculate');
 let renderDiv = document.getElementById('result');
 
-
 function renderResult() {
     const input = document.getElementById('marks').value;
     const inputValue = parseInt(input);
@@ -20,8 +19,9 @@ function renderResult() {
         renderDiv.innerHTML = `<h1>A</h1>`;
     } else if ( inputValue >= 80 && inputValue <= 100) {
         renderDiv.innerHTML = `<h1>A+</h1>`;
+    } else {
+        renderDiv.innerHTML = `<h1> Invalid marks </h1>`;
     }
 }
-
 
 button.addEventListener('click', renderResult);
